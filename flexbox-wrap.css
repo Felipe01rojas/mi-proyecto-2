@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+.containner-flex-1{
+    display: flex;
+    background: yellowgreen;
+    flex-wrap: nowrap;
+}
+.containner-flex-2{
+    display: flex;
+    background: yellowgreen; 
+    flex-wrap: wrap;
+}
+.item-flex{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+}

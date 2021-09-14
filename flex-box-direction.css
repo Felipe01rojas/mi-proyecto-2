@@ -1,0 +1,29 @@
+.containner-flex-1{
+display: flex;
+flex-direction: column;
+background: yellowgreen;
+}
+.containner-flex-2{
+    display: flex;
+    flex-direction: row;
+    background: yellowgreen;
+}
+.containner-flex-3{
+    display: flex;
+    flex-direction: column-reverse;
+    background: yellowgreen;
+    }
+    .containner-flex-4{
+        display: flex;
+        flex-direction: row-reverse;
+        background: yellowgreen;
+        }
+
+.item-flex{
+    width: 150px;
+    height: 150px;
+    background-color:aquamarine;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+}

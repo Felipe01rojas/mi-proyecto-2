@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    font-size: 2em;
+    border-collapse: collapse;
+    margin: 25px auto;
+}
+th, td {
+    border: 1px solid gold ;
+    padding: 11px;
+    text-align: center;
+}
+th.head-fila{
+    background-color: rgb(200, 200, 200);
+}
+.cantidad {
+    width: 81%;
+}
+.head-paquete {
+    background: chocolate;
+    font-weight: 900;
+}
+.head-cantidad {
+   background: #fbd504
+}
+.head-Día-Lunes {
+background: #04fbf7;
+}
+.head-Día-Martes {
+background: #04fbf7;
+}
+.head-Día-Miercoles {
+    background: #04fbf7;
+}
+.head-Día-Jueves {
+    background: #04fbf7;
+}
+.head-Día-Viernes {
+    background: #04fbf7;
+}

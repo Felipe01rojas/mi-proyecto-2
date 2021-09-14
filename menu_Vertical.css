@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar {
+   color: white;
+   margin: 25px 25px 25px 10px;
+   display: inline-table;
+}
+ul{
+    list-style-type: none;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 30px;
+    /*width: 280px;*/
+}
+li{
+    background: rgb(60, 60, 60);
+    padding: 20px ;
+    margin: 4px;
+    width: 280px;
+  }
+  li:hover{
+  font-size: 1.1em;
+  background: rgb(30, 30, 30);
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }

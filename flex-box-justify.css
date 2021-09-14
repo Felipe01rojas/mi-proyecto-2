@@ -1,0 +1,41 @@
+.container-flex-1{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+}
+.container-flex-2{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+}
+.container-flex-3{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: flex-start;
+}
+.container-flex-4{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: flex-end;
+}
+.container-flex-5{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    align-items: center;
+}
+.container-flex-6{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: stretch;
+}
+
+.item-flex{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100;
+}
+#nav-bar{
+    width: 100%;
+    /*background-color:aquamarine;*/
+    position: absolute;
+}
+ul{
+    font-size: 1.7em;
+    text-align: right;
+    margin-right: 50px;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+}
+a{
+    color: rgb(60, 60, 60);
+    text-decoration: none;
+}
+p{
+    font-size: 1.6em;
+    text-align: justify;
+}
+#content-main{
+    margin: 2em 5em;
+}

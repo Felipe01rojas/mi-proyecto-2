@@ -1,0 +1,33 @@
+#navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(60, 60, 60, 0.5);
+    width: 100%;
+}
+ul{
+    color: white;
+    font-size: 1.6em;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    padding: 30px;
+}
+p{
+    font-size: 1.5em;
+    text-align: justify;
+}
+.content-main{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.cafe-login{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

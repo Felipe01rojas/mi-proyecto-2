@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:gainsboro ;
+}
+.menu-bar{
+    display: none;
+}
+header{
+    width: 100%;
+}
+nav {
+    width: 100%;  
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    position: relative; 
+}
+nav ul li:hover {
+    background-color:rgb(51, 134, 25);
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+ 
+}
+nav ul li .children{
+    display: none;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+  
+}
+nav ul li:hover .children{
+    display: block;
+    text-align: left;
+    width: 120%;
+}
+nav ul li .children li {
+    /*overflow: scroll;*/
+    text-align: left;
+    border-bottom: 1px solid rgb(225,255,255,.5);
+    display: block;
+}
+nav  ul li .children li a{
+    display: block;
+}
+nav ul li span{
+    margin-right: 10px;
+}
+
+ul{
+    background-color:rgb(45, 138, 45);
+font-size: 1.2em;
+text-align: right;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+
+}
+nav ul li .children li a span{
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+h1{
+    float: left;
+    font-size: 1.5em;
+    text-align: justify;
+    margin-left: 30px;
+    /*padding: 20px; */
+    padding-right: 20px;
+    margin-block: 12px;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 850px){
+    body {
+        padding-top: 80px;
+    }
+    .menu-bar{
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: rgb(18, 160, 170);
+    }
+ .titulo{
+    display: none;
+ }
+ .bt-menu {
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+}
+.menu-bar span{
+    float: right;
+    font-size: 40px;
+}
+ header nav {
+    background:rgb(45, 138, 45);
+    width: 80%;
+    height: calc(100% - 80px );
+    position: fixed;
+    left: -100%;
+    margin: 0;
+}
+header nav ul {
+    text-align: left;
+}
+header nav ul li {
+    display: inline-block;
+    border-bottom: 1px solid rgba(205, 202, 209, 0.5);
+}
+header nav ul li a {
+    padding: 12px;
+    display: block;
+}
+.icon-chevron-small-down {
+    float: right;
+}
+nav ul li:hover .children {
+    display: none;
+}
+nav ul li .children {
+    position: relative;
+    width: 100%;
+}
+nav ul li .children li a {
+    margin-left: 20px;
+}
+}

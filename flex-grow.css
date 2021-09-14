@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+.container-flex-1{
+    display: flex;
+    background-color: yellowgreen;
+}
+.item-menu{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+.item-contain{
+    height: 200px;
+    background-color: aquamarine;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+    flex-grow: 1;
+}

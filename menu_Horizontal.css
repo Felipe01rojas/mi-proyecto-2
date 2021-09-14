@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:gainsboro ;
+}
+header{
+    width: 100%;
+}
+nav {
+    width: 100%;
+}
+
+
+ul{
+    background-color:rgb(122, 45, 138);
+font-size: 1.5em;
+text-align: right;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+
+
+}
+li{
+    display: inline-block; 
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display: block;
+    padding: 16px;
+}
+a:hover{
+    background-color:rgb(97, 15, 93);
+
+}
+h1{
+    float: left;
+    font-size: 1.5em;
+    text-align: justify;
+    margin-left: 30px;
+    /*padding: 20px; */
+    padding-right: 20px;
+    margin-block: 12px;
+    color: white;
+}
+.icono{
+    margin-right: 7px;
+}
+.menu-bar{
+    display: none;
+}
+.children{
+   display: none;
+    position: absolute;
+    background: #4b0461;
+    text-align: left;
+}
+ul li:hover .children{
+    display: block;
+    text-align: left;
+}
+.children li{
+    display: block;
+    border-bottom: 1px solid rgba(86, 14, 114, 0.5);
+
+}
+.children li a {
+    display: block;
+    width: 100%;
+}
+.children li a span{
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+}
+@media only screen and (max-width: 850px){
+    body {
+        padding-top: 80px;
+    }
+    .menu-bar{
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+.titulo{
+    display: none;
+}
+.bt-menu {
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+}
+.menu-bar span{
+    float: right;
+    font-size: 40px;
+}
+nav {
+    width: 80%;
+    height: calc(100% - 80px );
+    position: fixed;
+    /*right: 100%;*/
+    margin: 0;
+}
+nav ul {
+    text-align: left;
+}
+nav ul li {
+    display: block;
+    border-bottom: 1px solid rgb(225,255,255,.5);
+}
+nav ul li a {
+    padding: 12px;
+    display: block;
+}
+.icon-chevron-small-down {
+    float: right;
+}
+nav ul li:hover .children {
+    display: none;
+}
+}
